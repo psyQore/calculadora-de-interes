@@ -22,7 +22,11 @@ const MyInput = styled.input`
 `;
 
 const ErrorMessage = styled.div`
-  color: red;
+  color: #ad1800;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 5px 10px;
 `;
 
 const Input = ({ label, ...props }) => {
